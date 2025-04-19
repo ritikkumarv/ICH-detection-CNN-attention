@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore datasets and outputs (optional)
+data/
+outputs/
+
+# Ignore Colab temporary files
+*.ipynb_kernel_*
